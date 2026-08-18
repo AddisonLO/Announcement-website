@@ -39,7 +39,7 @@ header {
   opacity: 0;
   transition: opacity 0.3s ease;
   
-  /* key part: blend with the image */
+  
   mix-blend-mode: multiply;
 }
 .logo:hover .logo-overlay {
@@ -49,14 +49,14 @@ header {
 
 @media (min-width: 768px) {
   .logo img {
-    width: 4rem;   /* bigger on tablets/desktops */
+    width: 4rem;   
   }
 }
 
 /* Large desktop screens */
 @media (min-width: 1200px) {
   .logo img {
-    width: 6rem;   /* even larger */
+    width: 6rem;  
   }
 }
 
@@ -88,12 +88,15 @@ header {
 }
 
 .search-bar {
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     text-align: center;
     margin-right: 2rem;
 }
 
-.searching {
+#searching {
+    color: white;
     display: none;
 }
 

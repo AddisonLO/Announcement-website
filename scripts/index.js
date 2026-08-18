@@ -2,7 +2,7 @@ const spanButton = document.getElementsByClassName("searching-button");
 
 
 function toggleVisible() {
-    const inputBar = document.getElementsByClassName("searching");
+    const inputBar = document.getElementById("searching");
 
     if (inputBar.style.display === "none") {
         inputBar.style.display = "block";
@@ -10,4 +10,3 @@ function toggleVisible() {
         inputBar.style.display = "none";
     }
 }
-spanButton.addEventListener("click", toggleVisible);
