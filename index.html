@@ -24,7 +24,7 @@
                     </ul>
                 </nav>
                 <div class="search-bar">
-                    <span id="searching-button" onclick="toggleVisible()">&#x1F50D;</span>
+                    <span id="searching-button" onclick="toggleVisible()" title="searching button">&#x1F50D;</span>
                     <div id="searching">
                         <label for="searching-bar">Search: </label>
                         <input type="text" id="searching-bar" />
@@ -38,14 +38,19 @@
         <main>
             <section class="news">
                 <h2>Latest News</h2>
-                <article>
-                    <h3>Event Lauch</h3>
-                    <p>Details about the upcoming event</p>
-                </article>
-                <article>
-                    <h3>System Update</h3>
-                    <p>Information about system maintenance...</p>
-                </article>
+                <hr>
+                <div class="articles">
+                    <article class="launches">
+                        <h3>Event Lauch</h3>
+                        <hr>
+                        
+                    </article>
+                    <article class="updates">
+                        <h3>System Update</h3>
+                        <hr>
+                        
+                    </article>
+                </div>
             </section>
 
             <section class="event">

@@ -60,10 +60,12 @@ header {
   }
 }
 
-.navbar {
+.navbar > *:not(nav) {
     display: flex;
     align-items: center; 
 }
+
+
 
 .navbar ul {
     display: flex;
@@ -78,6 +80,13 @@ header {
 .navbar a {
     color: white;
     text-decoration: none;
+}
+
+.navbar a:hover {
+    border-radius: 8px;
+    background-color: lightgray;
+    color: black;
+    padding: 0.8rem;
 }
 
 .right-side {
@@ -99,6 +108,53 @@ header {
     color: white;
     display: none;
 }
+
+.news {
+    margin: 2rem;
+    padding: 0.1rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px 20px black;
+}
+
+.news h2 {
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+.articles .launches,
+.articles .updates {
+    flex: 1;
+    margin-top: 2rem;
+    border: 2px solid gray;
+    
+}
+
+
+.articles .launches { 
+    margin-left: 4rem; 
+    margin-right: 4rem;
+}
+.articles .updates { 
+    margin-right: 4rem; 
+}
+
+.articles .launches > *:not(hr),
+.articles .updates > *:not(hr) {
+    padding: 1rem;
+}
+
+.launches h3,
+.updates h3 {
+    text-align: center;
+}
+
 
 
 

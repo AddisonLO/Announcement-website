@@ -1,0 +1,68 @@
+[
+  {
+    "type": "update",
+    "title": "System Update v1.2",
+    "date": "2026-08-01",
+    "description": "Improved security patches and bug fixes."
+  },
+  {
+    "type": "update",
+    "title": "System Update v1.3",
+    "date": "2026-08-05",
+    "description": "Performance enhancements for faster load times."
+  },
+  {
+    "type": "update",
+    "title": "System Update v1.4",
+    "date": "2026-08-10",
+    "description": "Added new accessibility features."
+  },
+  {
+    "type": "update",
+    "title": "System Update v1.5",
+    "date": "2026-08-12",
+    "description": "Minor UI improvements and bug fixes."
+  },
+  {
+    "type": "update",
+    "title": "System Update v1.6",
+    "date": "2026-08-15",
+    "description": "Enhanced compatibility with third-party plugins."
+  },
+  {
+    "type": "launch",
+    "title": "Event Launch: Summer Hackathon",
+    "date": "2026-08-02",
+    "description": "Join our coding challenge with prizes."
+  },
+  {
+    "type": "launch",
+    "title": "Event Launch: Product Demo Day",
+    "date": "2026-08-06",
+    "description": "Showcasing new features to the community."
+  },
+  {
+    "type": "launch",
+    "title": "Event Launch: Developer Meetup",
+    "date": "2026-08-09",
+    "description": "Networking and knowledge sharing."
+  },
+  {
+    "type": "launch",
+    "title": "Event Launch: Security Workshop",
+    "date": "2026-08-19",
+    "description": "Learn best practices for secure coding."
+  },
+  {
+    "type": "launch",
+    "title": "Event Launch: AI Conference",
+    "date": "2026-08-20",
+    "description": "Exploring the future of artificial intelligence."
+  },
+  {
+    "type": "launch",
+    "title": "Event Launch: Clerk skill workshop",
+    "date": "2026-08-30",
+    "description": "Learn best practices as a clerk."
+  }
+]
