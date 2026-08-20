@@ -37,3 +37,24 @@ fetch("../data/new_information.json")
             }
         });
     });
+
+fetch("../data/new_information.json")
+    .then(res => res.json())
+    .then(data => {
+        const today = new Date();
+        const eventList = document.getElementById("event-list");
+
+        const launches = data.filter(item => itemtype = "launch");
+
+        launches.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+        const upcoming = launches.filter(e => new Date(e.date) >= today).slice(0, 2);
+
+        upcoming.forEach(event => {
+            const li = document.createElement("li");
+            const date = new Date(event.date);
+            const formattedDate = date.toLocaleDateString("zh-HK", { month: "short", day: "numeric" });
+            li.textContent = `${formattedDate} - ${event.title}`;
+            eventList.appendChild(li);
+        });
+    });
